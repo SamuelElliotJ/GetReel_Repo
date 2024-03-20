@@ -23,7 +23,7 @@ public:
 
 	// The static mesh of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UStaticMesh* AssetMesh;
+	UMaterial* AssetMaterial;
 
 	// The Image of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
