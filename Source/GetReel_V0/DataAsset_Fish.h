@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "Structs.generated.h"
 #include "DataAsset_Fish.generated.h"
 
 UCLASS()
@@ -34,4 +35,6 @@ public:
 	FString AssetSize;
 
 	// The rarity of the asset
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	ERarity AssetRarity;
 };
