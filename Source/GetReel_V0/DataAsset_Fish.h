@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
-#include "Structs.generated.h"
+#include "Structs.h"
 #include "DataAsset_Fish.generated.h"
 
 UCLASS()
@@ -20,7 +20,7 @@ public:
 
 	// The static mesh of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UStaticMesh* AssetMesh;
+	USkeletalMesh* AssetMesh;
 
 	// The image of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
@@ -36,5 +36,5 @@ public:
 
 	// The rarity of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	ERarity AssetRarity;
+	TEnumAsByte<ERarity> AssetRarity;
 };
