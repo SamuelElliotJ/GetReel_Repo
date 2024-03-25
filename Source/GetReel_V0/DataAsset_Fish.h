@@ -1,16 +1,13 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
-
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "Structs.h"
 #include "DataAsset_Fish.generated.h"
 
 UCLASS()
 class GETREEL_V0_API UDataAsset_Fish : public UPrimaryDataAsset
 {
 public:
-	
 	GENERATED_BODY()
 
 	// The name of the asset
@@ -23,9 +20,21 @@ public:
 
 	// The static mesh of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	UMaterial* AssetMaterial;
+	USkeletalMesh* AssetMesh;
 
-	// The Image of the asset
+	// The image of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UTexture2D* AssetImage;
+
+	// The description of the asset
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString AssetDescription;
+
+	// The size of the asset
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString AssetSize;
+
+	// The rarity of the asset
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TEnumAsByte<ERarity> AssetRarity;
 };
