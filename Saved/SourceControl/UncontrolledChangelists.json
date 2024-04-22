@@ -1,0 +1,39 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"P:/GitHub/GetReel_Repo/Content/__ExternalObjects__/m025080m/MenuLevel/2/R0/POYDXRUE236DGH84XEL9JK.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/E/WA/KHRINAU0YYGEFETX03UL4V.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/3/X8/AV94JXNKCH1YJ5DZNPID75.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/5/DH/WYXGX55B1ELDZ03FX35ZH0.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/3/7J/TUO2CPY2T51UR9RFN7SXUY.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/4/2Z/IMKKQ3STKYNU7Y1JRAY0SY.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/4/81/SLSIE0VASUHR8YF1RBNXCA.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/7/4R/7S1N7WFSQIPTM8FBJXIAIX.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/MenuLevel.umap",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/3/6L/2B2H8ZH10A29PRXVNOJQMU.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/E/4N/ICCLTID9DKKXFPDBG67DWM.uasset",
+				"P:/GitHub/GetReel_Repo/Content/StarterContent/Materials/M_Water_Ocean.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/UI_CharacterSelectionButton.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/UI_CharacterSelection.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/MenuCharacter.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/BP_HumanCharacter.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/BP_MermaidCharacter.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/BP_OtterCharacter.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/BP_Human.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/BP_Otter.uasset",
+				"P:/GitHub/GetReel_Repo/Content/m025080m/BP_Mermaid.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/E/TL/MLA3JILDE5TGA5NS88S6GP.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/E/IV/S8DHO2APM5XN6KMZBQG42V.uasset",
+				"P:/GitHub/GetReel_Repo/Content/__ExternalActors__/m025080m/MenuLevel/9/21/N90IG5ZWXA6VY29U3J4XOV.uasset",
+				"P:/GitHub/GetReel_Repo/Content/StarterContent/Materials/M_Basic_Floor.uasset",
+				"P:/GitHub/GetReel_Repo/Content/StarterContent/Materials/M_Ground_Moss.uasset",
+				"P:/GitHub/GetReel_Repo/Content/StarterContent/Materials/M_Wood_Oak.uasset",
+				"P:/GitHub/GetReel_Repo/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+			]
+		}
+	]
+}
