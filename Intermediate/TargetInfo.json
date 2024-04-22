@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GetReel_V0",
+			"Path": "P:\\GitHub\\GetReel_Repo\\Source\\GetReel_V0.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GetReel_V0Editor",
+			"Path": "P:\\GitHub\\GetReel_Repo\\Source\\GetReel_V0Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
