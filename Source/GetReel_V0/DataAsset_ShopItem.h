@@ -2,6 +2,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "Structs.h"
 #include "DataAsset_ShopItem.generated.h"
 
 // Data Asset Class For Shop Items
@@ -14,6 +15,10 @@ public:
 	// Item ID
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	uint8 ItemID;
+
+	// Item Type
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TEnumAsByte<EItemType> ItemType;
 
 	// Item Name
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
