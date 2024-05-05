@@ -18,6 +18,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FString AssetName;
 
+	// Points needed to catch the fish
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	uint8 CatchPoints;
+
 	// The value of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	float AssetValue;
