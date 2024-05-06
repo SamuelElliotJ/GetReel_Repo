@@ -11,3 +11,10 @@ enum ERarity
 	REpic UMETA(DisplayName="Epic"),
 	RLegendary UMETA(DisplayName="Legendary")
 };
+
+UENUM(BlueprintType)
+enum EItemType
+{
+	RStackable UMETA(DisplayName="Stackable"),
+	RNStackable UMETA(DisplayName="NON-Stackable")
+};

@@ -10,9 +10,17 @@ class GETREEL_V0_API UDataAsset_Fish : public UPrimaryDataAsset
 public:
 	GENERATED_BODY()
 
+	// The ID of the asset
+	UPROPERTY(EditAnywhere, BlueprintReadonly)
+	uint8 AssetID;
+
 	// The name of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FString AssetName;
+
+	// Points needed to catch the fish
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	uint8 CatchPoints;
 
 	// The value of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
