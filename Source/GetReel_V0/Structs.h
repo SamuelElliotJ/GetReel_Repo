@@ -18,3 +18,11 @@ enum EItemType
 	RStackable UMETA(DisplayName="Stackable"),
 	RNStackable UMETA(DisplayName="NON-Stackable")
 };
+
+UENUM(BlueprintType)
+enum EFishingRank
+{
+	FRBronze UMETA(DisplayName="Bronze"),
+	FRSilver UMETA(DisplayName="Silver"),
+	FRGold UMETA(DisplayName="Gold")
+};
