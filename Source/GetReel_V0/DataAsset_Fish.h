@@ -30,6 +30,14 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	USkeletalMesh* AssetMesh;
 
+	// The Animation for the mesh
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UAnimationAsset* AssetAnimation;
+
+	// modifier for fish display size
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	float AssetSizeMod;
+
 	// The image of the asset
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UTexture2D* AssetImage;
